@@ -52,7 +52,7 @@ def sync():
 
 
 if __name__ == '__main__':
-    # unpack()
+    unpack()
     # 不需要调用 sync() 将音频合成到 mp4。请用 preprocess_cmlr.py 进行预处理。
     video_filelist = glob.glob(os.path.join(cmlr_dataset_video_output_dir, '*/*/*.mp4'))
     audio_filelist = glob.glob(os.path.join(cmlr_dataset_audio_output_dir, '*/*/*.wav'))

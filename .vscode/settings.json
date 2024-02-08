@@ -1,4 +1,7 @@
 {
+    "pylint.args": [
+        "--max-line-length=128"
+    ],
     "flake8.args": [
         "--max-line-length=128"
     ],
