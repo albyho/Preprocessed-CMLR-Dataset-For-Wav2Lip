@@ -2,8 +2,8 @@ import os
 import random
 
 # 定义目录和文件路径
-data_dir = '/data/dev/dataset/CMLRdataset_output/wav2lip/'
-output_dir = '/data/dev/enhanced_wav2lip/filelists//'
+data_dir = '/data/dev/dataset/CMLRdataset_output/enhanced/'
+output_dir = '/data/dev/enhanced_wav2lip/filelists/'
 train_file = os.path.join(output_dir, 'train.txt')
 test_file = os.path.join(output_dir, 'test.txt')
 

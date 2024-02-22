@@ -97,6 +97,7 @@ def main(args):
     _ = [r.result() for r in tqdm(as_completed(futures), total=len(futures))]
 
     print('Dumping audios...')
+    filelist = glob(path.join(args.data_root, 'audio/*/*/*.wav'))
 
     for vfile in tqdm(filelist):
         try:
