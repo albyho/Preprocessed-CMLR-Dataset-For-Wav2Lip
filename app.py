@@ -13,7 +13,7 @@ cmlr_dataset_audio_output_dir = os.path.join(cmlr_dataset_output_dir, 'audio')
 cmlr_dataset_sync_output_dir = os.path.join(cmlr_dataset_output_dir, 'sync')
 os.makedirs(cmlr_dataset_video_output_dir, exist_ok=True)
 os.makedirs(cmlr_dataset_audio_output_dir, exist_ok=True)
-os.makedirs(cmlr_dataset_sync_output_dir, exist_ok=True)
+# os.makedirs(cmlr_dataset_sync_output_dir, exist_ok=True)
 
 
 def unpack():
