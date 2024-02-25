@@ -32,5 +32,5 @@ python inference.py --upscale 1 -w 1.0 --input_path /data/dev/dataset/CMLRdatase
 
 ``` sh
 cd /Users/alby/Workspace/OpenSource/ML/wav2lip/CodeFormer/
-python inference.py --upscale 1 -w 1.0 --input_path /Users/alby/Workspace/section_4_003/ --output_path /Users/alby/Workspace/section_4_003-1/
+python inference.py --upscale 1 -w 1.0 --input_path /Users/alby/Workspace/Temp/ --output_path /Users/alby/Workspace/Temp/out/
 ```

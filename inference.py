@@ -89,7 +89,7 @@ if __name__ == '__main__':
         if args.input_path.endswith('/'):  # solve when path ends with /
             args.input_path = args.input_path[:-1]
         # scan all the jpg and png images
-        input_img_list = sorted(glob.glob(os.path.join(args.input_path, '*/*/*/*.jpg')))
+        input_img_list = glob.glob(os.path.join(args.input_path, '*/*/*/*.jpg'))
 
     if not args.output_path is None: # set output path
         result_root = args.output_path
