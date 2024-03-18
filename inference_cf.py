@@ -151,6 +151,9 @@ if __name__ == '__main__':
         img_name = os.path.basename(img_path)
         basename, ext = os.path.splitext(img_name)
         print(f'[{i+1}/{test_img_num}] Processing: {img_name}')
+        save_restore_path = img_path.replace(args.input_path, result_root)
+        if os.path.exists(save_restore_path):
+            continue
         img = cv2.imread(img_path, cv2.IMREAD_COLOR)
 
         if args.has_aligned: 
